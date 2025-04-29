@@ -7,5 +7,6 @@ $(".dark-btn").click(
     $("a").toggleClass("dark");
     $(".caption").toggleClass("dark");
     $(".switch").toggleClass("dark");
+    $(".dark-btn").toggleClass("dark");
   }
 );

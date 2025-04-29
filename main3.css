@@ -57,6 +57,18 @@ row-gap: 25px;
 padding-top: 28px;
 }
 
+.top {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+}
+
 .project {
 width: 100%;
 height: auto;
@@ -137,19 +149,19 @@ a {
     font-size: 10px;
 }
 
-.button {
-    position: fixed;
+.dark-btn {
+    /* position: fixed;
     top: 500px;
-    left: 20px;
+    left: 20px; */
+    background-color: ivory;
+    color: rgb(179, 65, 17);
+    border: 1px solid rgb(179, 65, 17);
+    border-radius: 1px;
 }
 
 .rightpanel.dark {
     background: rgb(0, 61, 2);
 }
-
-/* .project.dark {
-    background: rgb(0, 61, 2);
-} */
 
 .text.dark {
     background: rgb(0, 61, 2);
@@ -173,4 +185,9 @@ a.dark {
 
 .caption.dark {
     color: rgb(0, 61, 2);
+}
+
+.dark-btn.dark {
+    color: rgb(0, 61, 2);
+    border: 1px solid rgb(0, 61, 2);
 }
