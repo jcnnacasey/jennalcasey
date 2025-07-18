@@ -133,3 +133,26 @@ hr {
         display: flex;
         flex-direction: column;
 }
+
+@media screen and (max-width: 600px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftpanel {
+        padding-bottom: 30px;
+    }
+
+    .middlepanel {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        overflow-y: scroll;
+    }
+
+    .rightpanel {
+        display: none;
+    }
+}
